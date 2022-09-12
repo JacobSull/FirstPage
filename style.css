@@ -1,0 +1,25 @@
+body {
+    background-image: url("Parchment-Body.png"); /*setting background image */
+    background-repeat: repeat-y; /*extending background downwards */
+    background-position: center; /*setting background in center of page */
+    background-color:powderblue; /*setting non-image of background to be powderblue */
+  }
+  h1 {
+    color:seagreen; /*setting header color */
+    font-family:  'Lucida Sans'; /*setting header font */
+  }
+  p {
+    color:saddlebrown; /*setting paragraph color*/
+    font-family:'Lucida Sans Regular'; /*setting paragraph font*/
+    font-size:small; /*setting paragraph font size*/
+  }
+  .center { /*used for centering the table in the middle of page */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body { /*forces everything in the body to be put into center aligned*/
+    text-align: center;
+  }
+  table, th, td { /* setting border for table, as well as both rows*/
+    border: 1px solid black;
+  }

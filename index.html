@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+-This Web Page gives some information on my favorite monster (The Mimic) from a game I enjoy called D&D.
+-I give some basic information and some statitics of the creature, using a table.
+-I link to another site for more information and also use css styling to make the page look nicer.
+Jacob Sullivan, UMass Lowell Computer Science, Jacob_Sullivan@student.uml.edu
+Copyright (c) 2022 by Jacob. All rights reserved. May be freely copied or 
+excerpted for educational purposes with credit to the author.
+updated by JS on September 12, 2022 at 11:29 AM
+-->
+<html lang="en"> <!--Specifying language as english-->
+  <!--Begin Head-->
+  <head>
+    <!--Basic html5 structure-->
+    <meta charset="utf-8">
+    <title>About Mimics</title>
+    <link rel="stylesheet" href="style.css"> <!--Reference to CSS file-->
+  </head>
+  <!--Begin Body-->
+  <body>
+    <!--First Section with Basic Info-->
+    <h1>What is a Mimic?</h1>
+    <p>Mimics are fascinating creatures in the Dungeons and Dragons mythos.<br>
+      Dungeons and Dragons, more commonly referred to as "DND" or "D&D"<br>
+      is a fantasy role-playing game first created in 1974.<br>
+      In D&D, a very infamous monster for the players to face against is the Mimic.<br> 
+      Mimics are known for hiding in plain sight.<br>
+      They are named after what they do, which is to imitate some non-living, inanimate object.<br>
+      The typical form they take is that of a chest. With large teeth suprising the players<br>
+    </p>
+    <img src="mimic.png" alt="Mimic Image"> <!--Including a picture-->
+    <h1>Mimic Statistics:</h1>
+    <p><i>There are 6 main attributes that all creatures in D&D possess<br> <!--Italicizing text used for helpful facts-->
+      10 is the standard for each attribute</i></p>
+    <table class="center"> <!--Creating table, using css "center" to center the table in middle of page-->
+      <tr>
+        <th>Strength</th>
+        <th>Dexerity</th>
+        <th>Constitution</th>
+        <th>Intelligence</th>
+        <th>Wisdom</th>
+        <th>Charisma</th>
+      </tr>
+      <tr style="height:50px"> <!--Giving space to second row-->
+        <td>17 (+3)</td>
+        <td>12 (+1)</td>
+        <td>15 (+2)</td>
+        <td>5 (-3)</td>
+        <td>13 (+1)</td>
+        <td>8 (-1)</td>
+      </tr>
+    </table>
+    <p> For more information about the Statistics of mimics, visit 
+      <a href="https://roll20.net/compendium/dnd5e/Mimic#content">roll20!</a> <!--Linking to Roll20 website for more information-->
+    </p>
+    <!--Final section on History of Mimics-->
+    <h1>History of Mimics:</h1>
+    <p>The Mimics first appeared in 1977's <i>Monster Manual</i> by Gary Gygax<br> <!--Using italics for name of book-->
+      Gygax was one of the co-founders of the game of D&D itself.<br>
+      The depiction of a Mimic has changed a lot as can be seen from the first depiction below.<br>
+    </p>
+    <img src="oldmimic.jfif" alt="Old Mimic Image"> <!--Including a picture-->
+    <p>In 1983, Ed Greenwood produced a more coherent knowledge base for mimic history.<br>
+      He created the idea that mimics consisted of two types:<br> 
+      <b>Small neutral mimics that might help the players</b> and <b>Large violent mimics with little intelligence</b><br><br> <!--Bolding important information-->
+      In 1995, Discworld released, which introduced a helpful companion called <b>Luggage</b><br>
+      Luggage acted as the player's pet, which was a large change from other iterations of the mimic.
+    </p>
+    <img src="luggage.png" width="500" height="500" alt="Luggage Image"> <!--Including a picture, changing dimensions to fit with web page-->
+    <p> <!--Validation-->
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss"
+          alt="Valid CSS!" />
+      </a>
+    </p>
+    <p> <!--Validation-->
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+          alt="Valid CSS!" />
+        </a>
+    </p>
+  </body>
+</html>
