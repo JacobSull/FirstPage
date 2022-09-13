@@ -20,6 +20,12 @@ body {
   body { /*forces everything in the body to be put into center aligned*/
     text-align: center;
   }
-  table, th, td { /* setting border for table, as well as both rows*/
-    border: 1px solid black;
+  table, th, td { /* setting border for table, aswell as the background */
+    border: 1px solid saddlebrown;
+    background-color: wheat;
+    border-radius: 5px;
+  }
+  th, td { /* setting the color of the table text */
+    font-family:'Lucida Sans';
+    color:brown
   }
